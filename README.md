@@ -11,6 +11,7 @@ This project serves as a template for flatpages created for CNH Circle K website
 ## For Reference
 [Bootstrap](https://getbootstrap.com/)
 * provides lots of convenient elements and styles
+
 [CNH Circle K Style Guide](https://company-70313.frontify.com/d/zDV4IaLwZ1nC/cnh-circle-k-style-guide)
 * mastheads of various colors, logos colored and in black/white
 * District icons
