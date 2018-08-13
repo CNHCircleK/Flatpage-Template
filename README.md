@@ -1,10 +1,10 @@
 # CNH Circle K's Flatpage Template
-This project serves as a template for flatpages created for CNH Circle K websites. Past websites, including ftc.cnhcirclek.org and resources.cnhcirclek.org, have been made using a similar format. 
+This project serves as a template for flatpages created for CNH Circle K websites. Past websites, including ftc.cnhcirclek.org and resources.cnhcirclek.org, have been made using a similar format.
 
 ## What you'll find
 * CNH Circle K Graphic Standards Fonts and Colors (HEX codes commented for reference in main.css)
 * CNH Circle K Logo as favicon.ico
-* CNH Circle K Logo, CKI Wordmark, and default CNH Circle K Masthead .png files. Refer to the style guide
+* CNH Circle K Logo, CKI Wordmark, and default CNH Circle K Masthead .png files. Refer to the style guide for more
 * A navbar, loaded from nav.html using jquery
 * Some example html
 
