@@ -8,6 +8,7 @@
     <!-- Included are Bootstrap CSS & JS - see https://getbootstrap.com/ for more info and documentation -->
  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <script src="Assets/JS/main.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" target="_blank" href="Assets/CSS/main.css">
@@ -17,16 +18,12 @@
 
     <title>Example</title>
 
-    <script>
-      $(function(){
-        $("#includedNavbar").load("nav.html");
-      });
-    </script>
   </head>
   <body>
     <!-- NOTE: this approach, using jquery to load the navbar from another file, won't work when
           testing the html file locally on your browser. You might consider copy & pasting
-          navbar code here when developing, or starting a local server for testing -->
+          navbar code here when developing, or starting a local server for testing:
+          https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server#Running_a_simple_local_HTTP_server -->
     <div id="includedNavbar"></div>
 
     <!-- THIS DIV CONTAINS EXAMPLE CODE & DEMOS - DELETE WHEN READY -->
@@ -54,5 +51,9 @@
         Example Column 3
       </div>
     </div>
+
+    <!-- NOTE: This masthead is slightly resized (wordmark and CNH logo downsized a bit) to better
+    fit full-width web screens -->
+    <img src="Assets/masthead_resized.png" id="masthead" alt="">
   </body>
 </html>
